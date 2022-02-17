@@ -4,13 +4,24 @@
     padding: 0;
 }
 
+
+
+/* HEADER */
+
 .navigation-bar {
     background-color: #001632;
 }
 
+
+/* MAIN LAYOUT */
+
 .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    
 }
 
 .center-wrapper {
@@ -30,12 +41,31 @@
     border: 1px solid black;
 }
 
+
+
+
+/* IMAGES */
+
 .pc-image {
-    width: 222px;
-    height: 300px;
+    min-width: 100%;
+    width: 215px;
+    height: 270px;
 }
 
 .logo-image {
+    border-radius: 50%;
     height: 70px;
     width: 70px;
+}
+
+.github-image {
+    padding-left: 110px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px;
+    background-color: #001632
 }
