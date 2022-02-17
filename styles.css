@@ -30,11 +30,6 @@
     margin-right: auto;
 }
 
-.grid-auto_column {
-    display: grid;
-    grid-auto-flow: column;
-}
-
 .boolean-laptop {
     min-width: 60px;
     min-height: 60px;
@@ -49,19 +44,31 @@
 .pc-image {
     min-width: 100%;
     width: 215px;
-    height: 270px;
+    height: 300px;
+}
+
+.logo-image-nav {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
 }
 
 .logo-image {
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 230px;
+    bottom: 290px;
 }
 
 .github-image {
     padding-left: 110px;
 }
 
+.twitter-image {
+    padding-left: 15px;
+}
 
 /* FOOTER */
 
