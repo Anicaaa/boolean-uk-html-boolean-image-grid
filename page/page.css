@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.navigation-bar {
+    background-color: #001632;
+}
+
+.logo-image-nav {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
